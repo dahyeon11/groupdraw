@@ -15,7 +15,7 @@ export class V1Controller {
 
   @Get()
   findAll() {
-    return this.v1Service.findAll();
+    return this.v1Service.findOne();
   }
 
   @Patch(':id')
